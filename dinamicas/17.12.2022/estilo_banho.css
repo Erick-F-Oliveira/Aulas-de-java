@@ -1,0 +1,73 @@
+
+body{
+background: #b2c7df;
+margin: 0px;
+
+}
+
+header{
+    background-color: rgba(27, 26, 94,0.72);
+    display: grid;
+    grid-auto-flow: column;
+    font-family: raleway;
+}
+
+.logo{
+    padding-left: 148px;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
+
+.title{
+    padding-top: 4rem;
+    padding-right: 5rem;
+    color: white;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+
+}
+
+form{
+    display: grid;
+    grid-auto-flow: row;
+    max-width: 500px;
+
+}
+
+label{
+    font-family: 'Alegreya Sans SC';
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+line-height: 34px;
+}
+
+input{
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.57);
+    height: 54px;
+    font-family: 'Alegreya Sans SC';
+}
+
+.botao{
+    border-radius: 10px;
+    background-color: #1B1A5E;
+    color: white;
+    font-family: 'Anaheim';
+}
+
+#sec-form{
+    display: grid;
+    grid-auto-flow: column;
+}
+
+th{
+    background: rgba(64, 123, 255, 0.55);
+    border: 1px solid #767373;
+    min-width: 100px;
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>agendamento de banho e tosa</title>
+    <style> @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;1,100;1,200&display=swap'); </style>
+    <style> @import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@100;300&display=swap'); </style>
+    <link rel="stylesheet" href="estilo_banho.css">
+</head>
+<body>
+    <header>
+        <img src="./logo.png" class="logo">
+        <h1 class="title">AGENDAMENTO DE BANHO E TOSA</h1> 
+
+    </header>
+
+    <section id="sec-form">
+        <div id="form">
+            <form onsubmit="addPet">
+                <label for="petname">Nome do Pet*</label>
+                <input autocomplete="off" type="text" required id="fname" name="petname">
+
+                <label for="petbrend">Raça*</label>
+                <input autocomplete="off" type="text" required id="fbrend" name="petbrend">
+
+                <label for="petowner">Dono do Pet*</label>
+                <input autocomplete="off" type="text" required id="fowner" name="petowner">
+
+                <label for="phone">Telefone*</label>
+                <input autocomplete="off" type="text" required id="fphone" name="phone">
+                <button type="submit" class="botao">Agendar Pet</button>
+            </form>
+
+        </div>
+
+        <div>
+            <table id="data">
+                <tr>
+                    <th>ID</th>
+                    <th>Nome</th>
+                    <th>Raça</th>
+                    <th>Dono</th>
+                    <th>Telefone</th>
+                    <th>Remover</th>
+                </tr>
+            </table>
+
+        </div>
+
+    </section>
+
+    <script src="main.js"></script>
+</body>
+</html>
