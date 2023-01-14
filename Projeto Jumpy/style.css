@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,400;0,600;1,400;1,600&display=swap');
+
+body{
+  background-color: #1e1e1e;
+  padding: 10px;
+    
+}
+
+h1{
+    Font-family: Helvetica;
+    font-size: 30px;
+    font-style: bold;
+    font-weight: 700;
+   
+}
+
+.conteudo{
+    text-align: center;
+}
+
+.corpo{
+    background-color: #1e1e1e;
+    font-family: 'raleway';
+    color: #ffffff;
+    text-align: center;
+    
+}
+/* estilização e alinhamento das labels dos campos*/
+.menssagem{
+  color: #ffffff;
+  padding-left: 385px;
+}
+
+#avisoFinal{
+  padding-right: 275px;
+}
+
+h3{
+  font-family: 'Raleway';
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 600;
+  color: #ffffff;
+  font-style: bold;
+  padding-right: 355px;
+  
+}
+
+#e{
+  padding-right: 450px;
+}
+
+#t{
+  padding-right: 435px;
+}
+
+#c{
+  padding-right: 475px;
+}
+
+#s{
+  padding-right: 450px;
+}
+
+/*estilização dos imputs*/
+.campos{
+    font-family: 'raleway';
+    font-size: 16px;
+    line-height: 16px;
+    text-align: left;
+    width: 524px;
+    height: 52px;
+    border: 0px;
+    border-radius: 10px;
+  
+}
+
+
+
+#cadast{
+    font-family: 'raleway';
+    font-size: 18px;
+    font-style: bold;
+    line-height: 21px;
+    text-align: center;
+    width: 524px;
+    height: 48px;
+    border: 0px;
+    border-radius: 6px;  
+    background-color: #0C70F2;
+    color: #ffffff;
+    
+}
+
+#cadast:hover{
+   background-color: #348ddf;
+   cursor: pointer;
+   color: #f8f7f1;
+   font-weight: 600;
+}
+
+

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jumpy</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="./resource/dnc.svg" alt="Logo DNC">
+    </header>
+    <div class="corpo">
+        <img src="./resource/jumpy.svg" alt="logo Jumpy" id="jumpy">
+        <h1>Bem vindo ao Jumpy!</h1><br>
+    </div>
+    <div class="conteudo">
+        
+
+        <div class="formu">
+            
+            <form>                
+                <h3 id="n">Nome Completo*:</h3>
+                <input type="text" id="nome" name="nome" placeholder="Nome Completo" class="campos" autocomplete="off">
+                <div class="menssagem" id="avisoNome"></div>
+
+                <h3 id="e">Email*:</h3>
+                <input type="email" id="email" name="email:" placeholder="email@email.com" class="campos" value="">
+                <div class="menssagem"id="avisoMail"></div>
+
+                <h3 id="t">Telefone*:</h3>
+                <input type="text" id="telefone" name="telefone:" placeholder="00 000000 0000" pattern="[0-9]{2} [0-9]{5} [0-9]{3,4}" class="campos" value="">
+                <div class="menssagem" id="avisoPhone"></div>
+
+                <h3 id="c">CPF*:</h3>
+                <input type="text" id="cpf" name="CPF:" placeholder="000.000.000-00" class="campos" value="">
+                <div class="menssagem" id="avisoCpf"></div>
+
+                <h3 id="s">Senha*:</h3>
+                <input type="password" id="pass" name="email:" placeholder="*******************" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"  class="campos" value="">
+                <div class="menssagem" id="avisoSenha"></div><br><br><br>
+
+                <input type="button" value="Cadastrar" id="cadast" onclick="cadastro()">
+                <div id="avisoFinal"></div>
+            </form>
+        
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
